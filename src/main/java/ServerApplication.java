@@ -13,6 +13,8 @@ public class ServerApplication {
         int portNumber = 34001;
         ServerSocket s = new ServerSocket(portNumber);
 
+        System.out.println("Server started on port " + portNumber);
+
         Socket client;
         BufferedReader in;
 
